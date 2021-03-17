@@ -42,9 +42,7 @@ function TempApp() {
                                 <h1 className="temp">
                                     {city.temp}
                                 </h1>
-                                <h3 className="min_max">main.temp_max
-                        min:{city.temp_min} max:{city.temp_min}
-                                </h3>
+                                <h3 className="min_max">{`min :${ city.temp_min} max: ${ city.temp_max}`}</h3>
                             </div>
                         </div>)
                 }
